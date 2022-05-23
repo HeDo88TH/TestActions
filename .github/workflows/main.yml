@@ -16,4 +16,4 @@ jobs:
     - name: Test
       run: cat Release.txt
     - name: Zip win-x64
-      run: zip -r test.zip ./data/*
+      run: cd data && zip -r ../test.zip *
