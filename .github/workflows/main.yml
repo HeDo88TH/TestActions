@@ -17,3 +17,5 @@ jobs:
       run: cat Release.txt
     - name: Zip win-x64
       run: cd data && zip -r ../test.zip *
+    - name: Test
+      run: pwd
